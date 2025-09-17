@@ -11,7 +11,7 @@ int main(int argc, char **argv)
     }
 
     try {
-        Image image;
+        Magick::Image image;
         image.read(argv[1]);
 
         image.flop(); // Отзеркаливание по горизонтали
@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 
         std::cout << "Saved mirrored image to " << argv[2] << std::endl;
     }
-    catch (Exception &error_) {
+    catch (Magick::Exception &error_) {
         std::cerr << "Caught exception: " << error_.what() << std::endl;
         return 1;
     }
