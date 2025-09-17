@@ -54,7 +54,7 @@ make
 
 ## Запуск
 
-Можно вместо .jpg формата использовать и другие: .png, gif и другие
+Можно вместо .jpg формата использовать и другие: .png, gif и т.д.
 
 ```bash
 ./test-in-pystota input.jpg output.jpg
