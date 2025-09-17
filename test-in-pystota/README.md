@@ -40,7 +40,6 @@ sudo apt install g++ cmake libmagick++-dev
 
 ```bash
 # Клонирование репозитория (или переход в папку с проектом)
-git clone https://github.com/username/test-in-pystota.git
 cd test-in-pystota
 
 # Создание папки для сборки
